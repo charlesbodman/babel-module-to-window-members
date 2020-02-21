@@ -1,0 +1,16 @@
+{
+  "name": "babel-global-scope",
+  "version": "1.0.0",
+  "description": "Turns all module scoped members into global members",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./src/test/index.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-tester": "^8.0.1",
+    "jest": "^25.1.0"
+  }
+}
