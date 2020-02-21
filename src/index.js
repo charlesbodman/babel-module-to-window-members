@@ -1,4 +1,4 @@
-module.exports = function babel_global_scope({ types: t }) {
+module.exports = function babel_plugin_global_scope({ types: t }) {
   /**
    * Checks if path is in global scoped
    * @param {Path} path
@@ -24,7 +24,7 @@ module.exports = function babel_global_scope({ types: t }) {
    * Plugin Declaration
    */
   return {
-    name: "babel-global-scope",
+    name: "babel-plugin-global-scope",
     visitor: {
       // Variable declarations (eg. var foo = bar )
       VariableDeclaration(path) {
