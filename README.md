@@ -2,6 +2,8 @@
 
 Transforms previously module scoped variables into globally scoped window properties
 
+`npm install babel-plugin-global-scope`
+
 **Before**
 
 ```Javascript
