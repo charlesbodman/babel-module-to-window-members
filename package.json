@@ -1,6 +1,6 @@
 {
-  "name": "babel-global-scope",
-  "version": "1.0.0",
+  "name": "babel-plugin-global-scope",
+  "version": "1.0.2",
   "description": "Turns all module scoped members into global members",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,7 @@
   },
   "keywords": [],
   "author": "",
+  "homepage": "https://github.com/charlesbodman/babel-plugin-global-scope",
   "license": "ISC",
   "devDependencies": {
     "babel-plugin-tester": "^8.0.1",

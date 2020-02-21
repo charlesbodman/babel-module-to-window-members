@@ -1,5 +1,7 @@
 ### Babel plugin global scope
 
+Transforms previously module scoped variables into globally scoped window properties
+
 **Before**
 
 ```Javascript
