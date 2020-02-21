@@ -3,18 +3,15 @@
 **Before**
 
 ```Javascript
-var globalVarA,globalVarB;
+var globalVarA, globalVarB;
 
-function globalFunc()
-{
-	var foo = "bar";
+function globalFunc() {
+  var foo = "bar";
 }
 
 class GlobalClass {}
 
-(function(){
-
-})
+(function() {});
 ```
 
 **After**
