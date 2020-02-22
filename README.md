@@ -13,9 +13,11 @@ function globalFunc() {
   var foo = "bar";
 }
 
-class GlobalClass {}
+class GlobalClass {
 
-(function() {});
+}
+
+
 ```
 
 **After**
@@ -27,9 +29,9 @@ function globalFunc() {
   var foo = "bar";
 }
 
-class GlobalClass {}
+class GlobalClass {
 
-(function() {});
+}
 
 window.globalVarA = globalVarA;
 window.globalVarB = globalVarB;
